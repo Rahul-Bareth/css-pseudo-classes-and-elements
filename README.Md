@@ -1,3 +1,3 @@
-## Css-Pseudo-Classes
+## CSS-PSEUDO-ELEMENTS
 
-Practice project covering CSS selectors, pseudo-classes, and pseudo-elements with simple examples.
+A beginner-friendly practice project exploring CSS selectors, pseudo-classes, and pseudo-elements through simple HTML and CSS examples.
