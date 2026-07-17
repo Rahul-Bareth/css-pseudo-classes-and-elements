@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More On CSS Selectors</title>
-      <style>
-         /*.box:first-child {
+    <style>
+      /*.box:first-child {
           background-color: red;
          }
 
@@ -13,11 +13,11 @@
             background-color: red;
         } */
 
-        /* .box::first-line{
+      /* .box::first-line{
             color: yellow;
         } */
 
-        /* .boxes *{
+      /* .boxes *{
             color: blue;
             border: 2px solid black;
         }
@@ -26,47 +26,45 @@
             padding-top: 45px;
         } */
 
-        /* .box:nth-child(odd){
+      /* .box:nth-child(odd){
             background-color: blue;
         } */
 
-        /* .box:nth-last-child(2){
+      /* .box:nth-last-child(2){
             background-color: red;
         } */
 
-        .boxes::before {
-            content: "Harry is good";
-            color: blue;
-        }
+      .boxes::before {
+        content: "Harry is good";
+        color: blue;
+      }
 
-        .boxes::after {
-            content: "Sigma course is also good";
-            color: red;
-        }
+      .boxes::after {
+        content: "Sigma course is also good";
+        color: red;
+      }
 
-        ::selection {
-            background-color: black;
-            color: aqua;
-        }
+      ::selection {
+        background-color: black;
+        color: aqua;
+      }
 
-        .box::first-letter {
-            color: peru;
-            font-size: 45px;
-        }
+      .box::first-letter {
+        color: peru;
+        font-size: 45px;
+      }
 
-        input::placeholder {
-            color: rgb(84, 84, 88);
-        }
-      </style>
-</head>
-<body>
-
-  <div class="boxes">
-    <div class="box">Hey I am Box</div>
-    <div class="box">Hey I am Box</div>
-    <div class="box">Hey I am Box</div>
-    <input type="text" placeholder="Type your name here">
-  </div>
-
-</body>
+      input::placeholder {
+        color: rgb(84, 84, 88);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box">Hey I am Box</div>
+      <div class="box">Hey I am Box</div>
+      <div class="box">Hey I am Box</div>
+      <input type="text" placeholder="Type your name here" />
+    </div>
+  </body>
 </html>
